@@ -1,1 +1,253 @@
 
+main{
+  min-height: 80vh;
+}
+
+body {
+  /* font-family: 'Playfair Display', serif; */
+  font-weight:300
+}
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight:100;
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  /* font-family: 'Playfair Display', serif; */
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+  font-weight:100
+}
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight:100
+}
+h4 {
+  /* font-family: 'Playfair Display', serif; */
+  font-weight:100
+}
+h5 {
+  /* font-family: 'Playfair Display', serif; */
+  font-weight:100
+}
+h6 {
+  /* font-family: 'Playfair Display', serif; */
+  font-weight:100
+}
+.btn {
+  font-family: 'Playfair Display', serif;
+  border-radius: 0; 
+  font-weight:100
+}
+.btn:hover{
+background-color: white;
+color: black
+}
+
+/* header */
+.brand-logo {
+  color:#444;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.navbar-category:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+@media screen and (min-width: 1100px){
+  .navbar-category{
+    color: black;
+    font-size: 18px;
+    margin-top: 82px;
+    margin-right: 20px;
+    font-weight:100
+  }
+  .navbar-user-name{
+    /* font-family: 'Playfair Display', serif; */
+    font-size: 18px;
+    margin-top: 83px;
+    padding-left: 0px;
+    font-weight:1100
+  }
+  .navbar-user-icon{
+    font-size: 15px;
+    margin-top: 75px;
+    padding-left: 0px
+  }
+  .navbar-cart-icon{
+    font-size: 15px;
+    margin-top: 73px;
+    padding-left: 0px
+  }
+  .brand-logo {
+    color:#444;
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+  }
+}
+
+
+/* search and filter container */
+.item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.select-container{
+  border-radius: 0;
+  border: 0.5px solid lightgray;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-size: 12px;
+  width: 227px;
+  height: 30px;
+}
+.select-container:hover{
+  background-color: #EEEEEE;
+  cursor: pointer
+}
+
+.search-box{
+  font-size: 12px;
+  padding: 5px;
+  width: 100%;
+  height: 30px;
+
+}
+
+fieldset {
+  display: table;
+}
+
+fieldset p {
+  display: table-row;
+}
+
+fieldset input, 
+fieldset select, 
+fieldset label {
+  display: table-cell;
+}
+
+.filter-button{
+  height: 30px;
+  width: 227px;
+  padding: 5px;
+
+}
+
+/* products container card */
+.product-card:hover {
+  box-shadow: 0 0 80px 0 rgba(22, 22, 26, .25);
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+}
+
+.card{
+  border-radius: 0;
+}
+/* @media screen and (max-width: 500px){
+  .card-img{
+    border-radius: 0;
+    width: 100%;
+    height: 90vw;
+    object-fit: cover;
+  }
+} */
+
+@media screen and (max-width: 650px){
+  .card-img{
+    border-radius: 0;
+    width: 100%;
+    height: 75vw;
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 800px){
+  .card-img{
+    border-radius: 0;
+    width: 100%;
+    height: 55vw;
+    object-fit: cover;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1200px){
+  .card-img{
+    border-radius: 0;
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 1200px){
+.card-img{
+  border-radius: 0;
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+}
+.cart-img{
+  width: 7vw;
+  height: 7vw;
+  object-fit: cover;
+}
+
+.cart-select{
+  border-radius: 0;
+}
+
+.cart-select:hover{
+  background-color: #EEEEEE;
+  cursor: pointer
+}
+
+/* product screen */
+.goback-btn {
+  margin-bottom: 0.5rem;
+  background: transparent;
+  border: 0.5px solid lightgray;
+  color: var(--primary-500);
+  cursor: pointer;
+  letter-spacing: var(--letterSpacing);
+}
+
+/* payment screen radio button */
+.radio-fieldset {
+  overflow: hidden
+}
+
+.some-class {
+  float: left;
+  clear: none;
+}
+
+label {
+  float: left;
+  clear: none;
+  display: block;
+  padding: 0px 2px 0px 8px;
+}
+
+input[type=radio],
+input.radio {
+  float: left;
+  clear: none;
+  margin: 7px 0 0 2px;
+}
+
+/* My orders screen table */
+
+th{
+  font-size: 18px;
+  font-weight:300
+}
