@@ -1,7 +1,9 @@
 ### MERN Stack Furniture Shopping Web Application
 ### Video Demonstration https://youtu.be/TwfA7A-vcrw
+### Landing Page Screenshot
 [](url)
 ![screencapture-127-0-0-1-3000-2023-08-22-23_49_56](https://github.com/melindatsay/MERNShopping/assets/22477611/fe1dd683-1f3b-4f19-9c66-a833fee0ba75)
+### Product Page Screenshot
 ![screencapture-127-0-0-1-3000-products-2023-08-22-23_57_44](https://github.com/melindatsay/MERNShopping/assets/22477611/7940c44f-4ffb-4765-b265-f589bf78abb8)
 ### .env preparation
 
